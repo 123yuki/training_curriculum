@@ -2,7 +2,7 @@ class CalendarsController < ApplicationController
 
   # １週間のカレンダーと予定が表示されるページ
   def index
-    get_Week
+    get_week
     #スネークケースに変更
     @Plan = plan.new
   end
